@@ -3,8 +3,8 @@
 #include<iostream>
 using namespace std;
 int main() {
-    int rows;
-    int cols;
+    int rows;   //no of rows
+    int cols;   //no of columns
     cout<<"enter the no of rows "<<endl;
     cin>>rows;
     cout<<"enter the no of cols "<<endl;
