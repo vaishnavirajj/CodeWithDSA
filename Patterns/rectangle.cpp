@@ -17,11 +17,11 @@ int main() {
 #include<iostream>
 using namespace std;
 int main() {
-    int breadth,length;
-    cin>>breadth>>length;
+    int rows,cols;
+    cin>>rows>>cols;
 
-    for (int row=0;row<breadth;row++){
-        for (int col=0;col<length;col++) {
+    for (int i=0;i<rows;i++){
+        for (int j=0; j<cols; j++) {
             cout<<"*"<<" ";
         }
         cout<<endl;
