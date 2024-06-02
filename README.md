@@ -4,11 +4,11 @@ Welcome to my Daily DSA (Data Structures and Algorithms) Practice repository! Th
 
 ## Repository Structure
 
-- **/problems**: Contains daily DSA problems and solutions.
-  - **/easy**: Solutions to easy problems.
-  - **/medium**: Solutions to medium difficulty problems.
-  - **/hard**: Solutions to hard problems.
-- **/notes**: Personal notes and explanations on various DSA topics.
+- **problems**: Contains daily DSA problems and solutions.
+- **easy**: Solutions to easy problems.
+- **medium**: Solutions to medium difficulty problems.
+- **hard**: Solutions to hard problems.
+- **notes**: Personal notes and explanations on various DSA topics.
 
 ## Daily Practice Log
 
