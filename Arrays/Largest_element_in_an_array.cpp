@@ -11,7 +11,7 @@ int largestElementInArray (int arr[] , int size) {
 }
        return largest;
 }
-int main() {
+//int main() {
     int size;
     cout<<"enter the size of an array: ";
     cin>>size;
@@ -23,7 +23,7 @@ int main() {
     int max_num = largestElementInArray(arr,size);
     cout<<"Largest element in an element is: "<<max_num; 
 
-}
+//}
 
 //TimeComplexity is : O(n)
 //SpaceComplexity is : O(n)
