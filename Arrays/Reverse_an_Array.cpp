@@ -17,7 +17,7 @@ for (int i=0;i<size;i++) {
 
 }
 
-//int main () {
+int main () {
     int size; //size of an array
     cout<<"enter size of an array: ";
     cin>>size;
@@ -30,4 +30,4 @@ for (int i=0;i<size;i++) {
     reverseAnArray(arr,size);
     return 0;
 
-//}
+}
