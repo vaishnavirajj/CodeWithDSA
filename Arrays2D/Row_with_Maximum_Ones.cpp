@@ -4,7 +4,7 @@ using namespace std;
 int main() {
     int rows=5;
     int cols=4;
-    int countOne=0;
+    int countOne=INT_MIN;
     int rowNo= -1;
     int arr[5][4] = {
         {1,0,0,0 },
