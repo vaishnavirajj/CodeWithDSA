@@ -9,6 +9,7 @@ void printArray(int arr[],int size, int index){
         return;
     }
     cout<<arr[index]<<" ";
+    //recursive call
     printArray(arr,size,index+1);
 }
 int main() {
