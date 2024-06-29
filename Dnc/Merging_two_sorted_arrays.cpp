@@ -4,6 +4,7 @@ using namespace std;
 void mergeSortedArrays(int arr[],int brr[],int sizeArr,int sizeBrr,vector<int>&ans) {
     int i=0;
     int j=0;
+    //jab tak i and j arrays k andar h
     while(i<sizeArr && j<sizeBrr) {
         if(arr[i]<brr[j]){
             ans.push_back(arr[i]);
@@ -15,10 +16,15 @@ void mergeSortedArrays(int arr[],int brr[],int sizeArr,int sizeBrr,vector<int>&a
         }
 
     }
+
+    //agar is loop k bhr aaye
+    //to 2 cases ho skte h
+    //1 case--> arr me still elements h
     while(i<sizeArr) {
         ans.push_back(arr[i]);
         i++;
     }
+    //2case-->brr me still elemnts h
 
     while(j<sizeBrr) {
         ans.push_back(brr[j]);
