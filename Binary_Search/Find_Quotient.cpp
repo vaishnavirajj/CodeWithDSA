@@ -4,7 +4,7 @@ using namespace std;
 int getQuotient(int divisor,int dividend) {
     int s=0;
     int e=dividend;
-    int mid=s+(e-s)/2;
+    int mid=s+((e-s)>>1);
     int ans=-1;
     while(s<=e) {
         if(divisor*mid==dividend) {
@@ -19,7 +19,7 @@ int getQuotient(int divisor,int dividend) {
         else {
             e=mid-1;
         }
-        mid=s+(e-s)/2;
+        mid=s+((e-s)>>1);
     }
     return ans;
 }
