@@ -1,4 +1,4 @@
-//printing the hollow pyramid
+//print hollow pyramid
 
 #include<iostream>
 using namespace std;
