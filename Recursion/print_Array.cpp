@@ -1,4 +1,4 @@
-//Printing array using recursion
+//Printing the array using recursion
 
 
 #include<iostream>
